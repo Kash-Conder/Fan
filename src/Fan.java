@@ -50,7 +50,7 @@ public class Fan {
     @Override
     public String toString() {
         if(on){
-            return "Fan{" + "speed=" + speed + ", on=" + on + ", radius=" + radius + ", color=" + color + '}';
+            return "Fan{" + "speed=" + speed +  ", radius=" + radius + ", color=" + color + '}';
         } else{
                 return "Fan{" + "color=" + color +  ", fan is off" + ", radius=" + radius  + '}';
             }
